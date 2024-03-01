@@ -1,10 +1,12 @@
+import ComponentRoutes from "./components/ComponentRoutes";
+import RickAndMProvider from "./components/ComponenteContext/provider";
 
 function App() {
-  return (
-    <div >
-      <p>Hello World!</p>
-    </div>
-  );
+  return(
+    <RickAndMProvider>
+      <ComponentRoutes/>
+    </RickAndMProvider>
+  )
 }
 
 export default App;

@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import './style.css'
+
 
 const ButtonsApiCharacters = ({page, setPage}) => {
 
@@ -14,10 +15,9 @@ const ButtonsApiCharacters = ({page, setPage}) => {
     } 
 
     return(
-        <div>
-            <button onClick={nextPage}>Next</button>
+        <div className="containerButtons">
             <button onClick={backPage}>Back</button>
-            <Link to={'/search'}>Search</Link>
+            <button onClick={nextPage}>Next</button>
         </div>
     )
 }

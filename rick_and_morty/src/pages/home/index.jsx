@@ -15,9 +15,8 @@ const Home = () => {
 
 return(
     <div>
-        <h1>Characters</h1>
-            <ButtonsApiCharacters page={page} setPage={setPage}/>
             <CardsRickAndM characters={characters}/>
+            <ButtonsApiCharacters page={page} setPage={setPage}/>
     </div>
     )
 }

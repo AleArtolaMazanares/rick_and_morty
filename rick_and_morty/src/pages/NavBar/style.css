@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'RickAndMorty';
+    src: url('./../../fonts/get-schwifty.ttf');
+}
+
+.containerNavBar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.containerNavBar > h1{
+    font-family: 'RickAndMorty', sans-serif;
+    color: white;
+}
+
+.containerNavBar > a{
+    color: white;
+    text-decoration: none;
+}
+

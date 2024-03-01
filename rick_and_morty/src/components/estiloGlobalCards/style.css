@@ -1,0 +1,33 @@
+.containerCardsHome{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.containerCardsHome > a{
+    color: white;
+    text-decoration: none
+}
+
+.cardsHome{
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
+}
+
+.cardsHome > img{
+    width: 200px;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url('https://images4.alphacoders.com/133/1335148.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}

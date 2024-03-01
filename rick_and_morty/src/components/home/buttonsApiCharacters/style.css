@@ -1,0 +1,9 @@
+.containerButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerButtons > button{
+    width: 200px;
+    height: 50px;
+}

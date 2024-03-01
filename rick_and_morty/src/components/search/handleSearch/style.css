@@ -1,0 +1,16 @@
+@font-face{
+    font-family: 'RickAndMorty';
+    src: url('./../../../fonts/get-schwifty.ttf')
+}
+
+
+.containerHandleSearch{
+    text-align: center;
+}
+
+form > input{
+    margin-right: 10px;
+}   
+
+
+

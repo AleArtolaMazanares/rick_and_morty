@@ -31,10 +31,6 @@ const Search = () => {
 
     return(
         <div>
-            <h1>Search</h1>
-            <div>
-                <Link to={'/'}>Back</Link>
-            </div>
             <HandleSearch handleSubmit={handleSubmit} handleChange={handleChange}/>
             <div>
                 {

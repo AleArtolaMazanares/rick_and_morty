@@ -1,0 +1,23 @@
+.containerGlobalInformation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.containerInformation{
+    box-shadow: 2px 2px 5px 0px rgba(255,255,255,0.75);
+}
+
+.containerInformation > p{
+    color: white;
+
+}
+.titleInformation > h1{
+    color: white    ;
+}
+
+#spinner{
+    color: white;
+    font-size: 20px;
+}
